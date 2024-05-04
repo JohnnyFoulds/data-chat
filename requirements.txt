@@ -1,1 +1,11 @@
+langchain==0.1.17
 pandasai==2.0.36
+#tensorflow[and-cuda]==2.16.1
+torch==2.3.0
+accelerate==0.30.0
+bitsandbytes==0.43.1
+transformers==4.40.1
+autoawq==0.2.5
+text-generation==0.7.0
+optimum==1.19.1
+auto-gptq==0.7.1
