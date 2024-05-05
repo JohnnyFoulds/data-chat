@@ -1,11 +1,33 @@
+# langchain==0.1.17
+# pandasai==2.0.36
+# #tensorflow[and-cuda]==2.16.1
+# #torch==2.3.0
+# #accelerate==0.30.0
+# #bitsandbytes==0.43.1
+# #transformers==4.40.1
+# #autoawq==0.2.5
+# text-generation==0.7.0
+# #optimum==1.19.1
+# #auto-gptq==0.7.1
+
+# # older versions
+# transformers[sentencepiece]==4.36.1
+# optimum[onnxruntime]==1.16.1
+# accelerate==0.25.0
+# bitsandbytes==0.40.0.post4
+# https://github.com/casper-hansen/AutoAWQ/releases/download/v0.1.8/autoawq-0.1.8+cu118-cp310-cp310-linux_x86_64.whl
+# https://huggingface.github.io/autogptq-index/whl/cu118/auto-gptq/auto_gptq-0.5.1%2Bcu118-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+
+# #pydantic==1.10.9
+# pydantic==2.0.1
+
+
+
+#pandasai==2.0.36
 langchain==0.1.17
-pandasai==2.0.36
-#tensorflow[and-cuda]==2.16.1
-torch==2.3.0
-accelerate==0.30.0
-bitsandbytes==0.43.1
 transformers==4.40.1
+accelerate==0.30.0
+xformers==0.0.26.post1
 autoawq==0.2.5
-text-generation==0.7.0
-optimum==1.19.1
-auto-gptq==0.7.1
+#https://github.com/casper-hansen/AutoAWQ/releases/download/v0.1.8/autoawq-0.1.8+cu118-cp310-cp310-linux_x86_64.whl
+#https://huggingface.github.io/autogptq-index/whl/cu118/auto-gptq/auto_gptq-0.5.1%2Bcu118-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
